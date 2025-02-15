@@ -76,14 +76,7 @@ class MembrosController extends Controller
     }
     
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    // public function edit($id)
-    // {
-    //     $membro = Membro::findOrFail($id);
-    //     return view('membros.edit', compact('membro'));
-    // }
+
     
     public function destroy($id)
     {
@@ -92,13 +85,7 @@ class MembrosController extends Controller
     
         return redirect('/membros')->with('success', 'Registro deletado com sucesso!');
     }
-    // public function destroy(Request $request)
-    // {
-    //     $membro= Membro::findOrFail($request->membro_id);
-    //     $membro->delete();
-    
-    //     return redirect('/membros')->with('success', 'Registro deletado com sucesso!');
-    // }
+
     
     
 }

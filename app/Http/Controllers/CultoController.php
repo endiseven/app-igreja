@@ -22,7 +22,7 @@ class CultoController extends Controller
      */
     public function create()
     {
-        // $membros = Membro::orderBy('nome')->get();
+        
         $membrosEmCulto = Culto::pluck('membro_id')->toArray();
         $membrosDisponiveis = Membro::whereNotIn('id', $membrosEmCulto)->orderBy('nome')->get();
         return view('culto.create', compact('membrosDisponiveis'));

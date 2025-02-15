@@ -25,7 +25,7 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th>ID</th>
+                    <!-- <th>ID</th> -->
                     <th>Nome</th>
                     <th>Data de Nascimento</th>
                     <th>Responsável</th>
@@ -36,7 +36,7 @@
             <tbody>
                 @foreach ($membros as $membro)
                     <tr>
-                        <td>{{ $membro->id }}</td>
+                        <!-- <td>{{ $membro->id }}</td> -->
                         <td>{{ $membro->nome }}</td>
                         <td>{{ $membro->data_nascimento }}</td>
                         <td>{{ $membro->responsavel }}</td>

@@ -7,10 +7,12 @@ use App\Http\Controllers\MembrosController;
 use App\Http\Controllers\CultoController;
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
+Route::get('/', [AppControler::class,'index'] 
+);
 
 Route::get('/index', [AppControler::class,'index'] 
 );
@@ -57,25 +59,25 @@ Route::get('/iniciar_culto.html', function () {
 });
 
 
-// Rota para a página de cadastro escolha
-Route::get('/cadastroescolha.html', function () {
-    return view('cadastroescolha');
-});
+// // Rota para a página de cadastro escolha
+// Route::get('/cadastroescolha.html', function () {
+//     return view('cadastroescolha');
+// });
 
-// Rota para a página de check-in
-Route::get('/check_in.html', function () {
-    return view('check_in');
-});
+// // Rota para a página de check-in
+// Route::get('/check_in.html', function () {
+//     return view('check_in');
+// });
 
-// Rota para a página de cadastro de criança
-Route::get('/cadastro_crianca', function () {
-    return view('cadastro_crianca');
-});
+// // Rota para a página de cadastro de criança
+// Route::get('/cadastro_crianca', function () {
+//     return view('cadastro_crianca');
+// });
 
-// Rota para a página de cadastro de criança
-Route::get('/cadastro_responsavel.html', function () {
-    return view('cadastro_responsavel');
-});
+// // Rota para a página de cadastro de criança
+// Route::get('/cadastro_responsavel.html', function () {
+//     return view('cadastro_responsavel');
+// });
 
 
 

@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('culto', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('membro_id')->constrained('membros')->onDelete('cascade'); // Chave estrangeira para membros
+            $table->foreignId('membro_id')->constrained('membros')->onDelete('cascade'); 
             $table->timestamps();
         });
     }

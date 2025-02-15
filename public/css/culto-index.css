@@ -103,7 +103,7 @@
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            overflow-x: auto; /* Adicionado para rolagem horizontal */
+            overflow-x: auto;
         }
         
         @media (max-width: 768px) {
@@ -112,13 +112,13 @@
             }
             .table th, .table td {
                 padding: 8px;
-                font-size: 0.9rem; /* Ajuste o tamanho da fonte para telas menores */
+                font-size: 0.9rem; 
             }
             .logo h1 {
-                font-size: 2.5rem; /* Ajuste o tamanho do texto do logo */
+                font-size: 2.5rem; 
             }
             .subheader h4 {
-                font-size: 1.2rem; /* Ajuste o tamanho do subtítulo */
+                font-size: 1.2rem; 
             }
         }
 
@@ -128,12 +128,12 @@
             }
             .table th, .table td {
                 padding: 6px;
-                font-size: 0.8rem; /* Ajuste o tamanho da fonte para telas menores */
+                font-size: 0.8rem; 
             }
             .logo h1 {
-                font-size: 2rem; /* Ajuste o tamanho do texto do logo */
+                font-size: 2rem; 
             }
             .subheader h4 {
-                font-size: 1rem; /* Ajuste o tamanho do subtítulo */
+                font-size: 1rem; 
             }
         }
