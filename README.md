@@ -33,21 +33,25 @@ Certifique-se de ter os seguintes softwares instalados:
 
 3. **Configurar o Banco de Dados**
 
+   Configure o arquivo .env para se conectar ao banco de dados, você pode usar o pgadmin para criar e gerar o bd.
+   Certifique-se que o o arquivo php.ini permita o uso de extensões para realizar a comunicação com o bd.
+   
    ```bash
-    DB_CONNECTION=mysql
+    DB_CONNECTION=pgsql
     DB_HOST=127.0.0.1
-    DB_PORT=3306
+    DB_PORT=5432
     DB_DATABASE=app-igreja
     DB_USERNAME=seu_usuario
     DB_PASSWORD=sua_senha
 
-4. **Executar as Migrações**
+5. **Executar as Migrações**
 
+   O comando a seguir irá configurar o seu banco de dados para rodar o servidor Laravel e criará as tabalas necessárias no banco de dados para o funcionamento do app.
    ```bash
    php artisan migrate
 
-5. **Rodar o Servidor**
-
+7. **Rodar o Servidor**
+    Agora é só rodar!
    ```bash
    php artisan serve
    
