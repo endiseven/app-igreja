@@ -39,7 +39,7 @@ Certifique-se de ter os seguintes softwares instalados:
 
 4. **Configurar o Banco de Dados**
 
-   Configure o arquivo .env para se conectar ao banco de dados, você pode usar o pgadmin para criar e gerar o bd.
+   Configure o arquivo .env para se conectar ao banco de dados, você pode usar o pgadmin para criar e gerenciar o bd.
    Certifique-se que o o arquivo php.ini permita o uso de extensões para realizar a comunicação com o bd.
    
    ```bash
