@@ -31,7 +31,7 @@ Certifique-se de ter os seguintes softwares instalados:
    ```bash
    composer install
     ```
-   Mudo o nome do arquivo ".env.example" para ".env" e gere a chave de encriptação com o comando:
+   Mude o nome do arquivo ".env.example" para ".env" e gere a chave de encriptação com o comando:
    
    ```bash
    php artisan key:generate
