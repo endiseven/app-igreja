@@ -31,8 +31,13 @@ Certifique-se de ter os seguintes softwares instalados:
 
    ```bash
    composer install
+    ```
+   Mudo o nome do arquivo ".env.example" para ".env" e gere a chave de encriptação com o comando:
+   
+   ```bash
+   php artisan key:generate
 
-3. **Configurar o Banco de Dados**
+4. **Configurar o Banco de Dados**
 
    Configure o arquivo .env para se conectar ao banco de dados, você pode usar o pgadmin para criar e gerar o bd.
    Certifique-se que o o arquivo php.ini permita o uso de extensões para realizar a comunicação com o bd.
