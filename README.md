@@ -16,7 +16,6 @@ Certifique-se de ter os seguintes softwares instalados:
 
 - PHP
    O projeto requer PHP 8.2 ou superior, ao rodar o comando para iniciar o servidor ele irá procurar pela pasta PHP, na raiz do seu sistema, provavelmente "C:". 
-- Laravel
 - Composer
 
 ### Passos para Rodar o App Localmente
